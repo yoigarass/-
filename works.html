@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Works | 翠ちゃんのポートフォリオ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video autoplay loop muted playsinline id="bg-video">
+        <source src="your-artwork-video.mp4" type="video/mp4">
+    </video>
+
+    <header>
+        <div class="logo">
+            <h1>Midori</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="radio.html">Radio</a></li>
+                <li><a href="works.html">Works</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="works-container">
+            <aside class="works-menu">
+                <h2>Works</h2>
+                <ul>
+                    <li><a href="#" class="filter-link active" data-filter="all">ALL</a></li>
+                    <li><a href="#" class="filter-link" data-filter="yolushika">ヨルシカ</a></li>
+                    <li><a href="#" class="filter-link" data-filter="suis">suis</a></li>
+                    <li><a href="#" class="filter-link" data-filter="n-buna">n-buna</a></li>
+                </ul>
+            </aside>
+            <div class="works-grid">
+                <div class="work-card yolushika">
+                    <div class="work-image">
+                        <img src="yolushika-1.jpg" alt="作品のサムネイル">
+                    </div>
+                    <div class="work-caption">
+                        <p>作品タイトル1</p>
+                        <p class="work-date">2025.08.10</p>
+                    </div>
+                </div>
+                <div class="work-card yolushika">
+                    <div class="work-image">
+                        <img src="yolushika-2.jpg" alt="作品のサムネイル">
+                    </div>
+                    <div class="work-caption">
+                        <p>作品タイトル2</p>
+                        <p class="work-date">2025.08.01</p>
+                    </div>
+                </div>
+                
+                <div class="work-card suis">
+                    <div class="work-image">
+                        <img src="suis-1.jpg" alt="作品のサムネイル">
+                    </div>
+                    <div class="work-caption">
+                        <p>作品タイトル3</p>
+                        <p class="work-date">2025.07.25</p>
+                    </div>
+                </div>
+                
+                <div class="work-card n-buna">
+                    <div class="work-image">
+                        <img src="n-buna-1.jpg" alt="作品のサムネイル">
+                    </div>
+                    <div class="work-caption">
+                        <p>作品タイトル4</p>
+                        <p class="work-date">2025.07.12</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Midori. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

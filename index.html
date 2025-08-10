@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>月とからす</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video autoplay loop muted playsinline id="bg-video">
+        <source src="your-artwork-video.mp4" type="video/mp4">
+    </video>
+
+    <header>
+        <div class="logo">
+            <h1>月とからす</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="radio.html">Radio</a></li>
+                <li><a href="works.html">Works</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="news">
+            <h2>News</h2>
+            <ul class="news-list">
+                <li>
+                    <a href="#">
+                        <div class="news-info">
+                            <span class="news-date">2025.08.09</span>
+                            <div class="news-title">新しいブログ記事「最初の記事」を公開しました。</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="news-info">
+                            <span class="news-date">2025.08.08</span>
+                            <div class="news-title">ホームページを公開しました。</div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="latest-posts">
+            <h2>Latest Posts</h2>
+            <div class="post-grid">
+                <article class="post-card">
+                    <a href="blog1.html">
+                        <div class="post-image">
+                            <img src="myphoto1.jpg" alt="ブログ記事のサムネイル画像">
+                        </div>
+                        <h3>ブログ記事タイトル1</h3>
+                    </a>
+                    <p class="post-date">2025/08/09</p>
+                </article>
+                <article class="post-card">
+                    <a href="blog2.html">
+                        <div class="post-image">
+                            <img src="myphoto2.jpg" alt="ブログ記事のサムネイル画像">
+                        </div>
+                        <h3>ブログ記事タイトル2</h3>
+                    </a>
+                    <p class="post-date">2025/08/09</p>
+                </article>
+                <article class="post-card">
+                    <a href="blog3.html">
+                        <div class="post-image">
+                            <img src="myphoto3.jpg" alt="ブログ記事のサムネイル画像">
+                        </div>
+                        <h3>ブログ記事タイトル3</h3>
+                    </a>
+                    <p class="post-date">2025/08/09</p>
+                </article>
+            </div>
+        </section>
+        
+        <section class="latest-radio">
+            <h2>Latest Radio</h2>
+            <div class="radio-card">
+                <div class="radio-image">
+                    <audio controls src="radio1.mp3"></audio>
+                </div>
+                <h3>ラジオタイトル</h3>
+                <p class="radio-date">2025/08/10</p>
+            </div>
+        </section>
+        
+        <section class="latest-works">
+            <h2>Latest Works</h2>
+            <div class="work-grid">
+                <div class="work-card">
+                    <div class="work-image">
+                        <a href="https://www.youtube.com/watch?v=JV-XpkMFe24" target="_blank">
+                            <img src="work1-thumbnail.jpg" alt="作品のサムネイル">
+                        </a>
+                    </div>
+                    <h3>作品タイトル1</h3>
+                </div>
+                <div class="work-card">
+                    <div class="work-image"></div>
+                    <h3>作品タイトル2</h3>
+                </div>
+                <div class="work-card">
+                    <div class="work-image"></div>
+                    <h3>作品タイトル3</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Midori. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
