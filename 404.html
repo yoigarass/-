@@ -1,12 +1,91 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <head>
-        <meta charset="utf-8">
-        <title>404 NF</title>
-    </head>
-    <body>
-        <h1>どんま〜い</h1>
-        <p>^-^</p>
-        <a href="/-/">生き返る</a>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Not Found | 月とからす</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* 404ページ専用のスタイルをここに追加します */
+        .not-found-container {
+            text-align: center;
+            padding: 80px 40px;
+            background-color: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(5px);
+            border-radius: 5px;
+            max-width: 800px;
+            margin: 80px auto;
+            min-height: calc(100vh - 200px); /* フッターとヘッダーを考慮した高さ */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .not-found-container h1 {
+            font-size: 6em; /* 大きな404 */
+            color: #4682b4; /* ブランドカラーを使用 */
+            margin-bottom: 20px;
+            text-align: center; /* 中央寄せ */
+            border-left: none; /* 元のh1スタイルをリセット */
+            padding-left: 0; /* 元のh1スタイルをリセット */
+        }
+
+        .not-found-container p {
+            font-size: 1.5em;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .not-found-container a {
+            display: inline-block;
+            background-color: #4682b4;
+            color: #fff;
+            padding: 12px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .not-found-container a:hover {
+            background-color: #3a6a9b;
+        }
+    </style>
+</head>
+<body>
+    <video autoplay loop muted playsinline id="bg-video">
+        <source src="your-artwork-video.mp4" type="video/mp4">
+    </video>
+
+    <header>
+        <div class="logo">
+            <h1>Karass</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="radio.html">Radio</a></li>
+                <li><a href="works.html">Works</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="not-found-container">
+            <h1>404</h1>
+            <p>お探しのページは見つかりませんでした。</p>
+            <a href="index.html">トップページに戻る</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Karass. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
